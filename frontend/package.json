@@ -1,0 +1,13 @@
+{
+  "name": "wedding-frontend",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "npx http-server ./src -p 4200",
+    "build": "echo \"Use Angular CLI to build a full app\""
+  },
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "whatwg-encoding": "npm:@exodus/bytes@^1.15.1"
+  }
+}

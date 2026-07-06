@@ -1,0 +1,9 @@
+/node_modules
+/bin
+/obj
+/.vs
+.env
+/*.db
+/Data/*.txt
+workspace/frontend/dist
+frontend/node_modules
