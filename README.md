@@ -1,11 +1,11 @@
-# WeddingDressDecisionAid Workspace
+# CattleTracker Workspace
 
 This workspace contains:
 - `frontend/` — Angular frontend scaffold
 - `backend/Api/` — .NET Web API using Entity Framework Core (Postgres)
 - `infra/` — Docker Compose with Postgres
 
-Quick start (development):
+Quick start for developmentS:
 
 1. Start Postgres via Docker Compose:
 
