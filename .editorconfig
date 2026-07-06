@@ -1,0 +1,39 @@
+# https://editorconfig.org
+
+root = true
+
+# All files
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# JavaScript, TypeScript, JSON
+[*.{js,ts,jsx,tsx,json}]
+indent_style = space
+indent_size = 2
+
+# HTML, CSS
+[*.{html,css,scss,sass}]
+indent_style = space
+indent_size = 2
+
+# C# files
+[*.cs]
+indent_style = space
+indent_size = 4
+
+# XML files
+[*.xml]
+indent_style = space
+indent_size = 2
+
+# YAML files
+[*.{yml,yaml}]
+indent_style = space
+indent_size = 2
+
+# Markdown files
+[*.md]
+trim_trailing_whitespace = false

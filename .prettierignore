@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+/.git
+/.next
+/out
+
+# Production
+/build
+/dist
+frontend/node_modules
+
+# Backend
+backend/bin
+backend/obj
+backend/.vs
+backend/.vscode
+*.dll
+*.exe
+*.pdb
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Misc
+*.log
+*.sqlite
+.DS_Store
+Thumbs.db
