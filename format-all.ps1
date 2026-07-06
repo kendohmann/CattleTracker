@@ -22,7 +22,8 @@ Write-Host ""
 
 # Backend formatting with dotnet-format
 Write-Host "2. Formatting Backend"
-dotnet format
+Push-Location backend/Api
+dotnet format Api.csproj
 $backendStatus = $LASTEXITCODE
 Pop-Location
 

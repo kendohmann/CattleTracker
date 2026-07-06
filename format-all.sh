@@ -24,7 +24,7 @@ echo ""
 # Backend formatting with dotnet-format
 echo "2. Formatting Backend"
 cd backend/Api
-dotnet format
+dotnet format Api.csproj
 BACKEND_STATUS=$?
 cd ../..
 
