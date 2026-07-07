@@ -7,3 +7,5 @@
 /Data/*.txt
 workspace/frontend/dist
 frontend/node_modules
+**/bin/*
+**/obj/*
