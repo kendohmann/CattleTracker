@@ -12,7 +12,7 @@ public class HealthEvent
 
     [JsonPropertyName("medicineId")]
     public int MedicineId { get; set; }
-    
+
     [JsonPropertyName("date")]
     public DateTime Date { get; set; }
 
